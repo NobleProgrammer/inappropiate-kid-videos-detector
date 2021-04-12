@@ -25,6 +25,7 @@ The main gateway of the program is client.py, and you can either run it in a nor
 
 
 **Training model Analysis**: 
+
 The following figure shows Accuracy, Precision, Recall, and F-1 Score for our visual models:
 ![image](https://user-images.githubusercontent.com/62210199/114467595-d271db00-9bf2-11eb-9cef-6509c9c4fbfd.png)
 
