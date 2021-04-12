@@ -19,3 +19,13 @@ The objective of this project is to resolve the presence of inappropriate conten
 
 **How to run the program**:
 The main gateway of the program is client.py, and you can either run it in a normal manner and the interface will ask you to enter video name, decide an option, and decide tolerance value. Or directly from command line you can send video name (with its extension), option, and tolerance as parameters. If only video name and option is provided, tolerance is set to 1 as default, if only video name is provided, option 4 (detect ideologies and violence) is set as default.
+
+**Training model Analysis**: 
+The following figure shows Accuracy, Precision, Recall, and F-1 Score for our visual models:
+https://imgur.com/utUzkYU
+
+The following figure shows Accuracy, Precision, Recall, and F-1 Score for our auditory models:
+https://imgur.com/HiGoUub
+
+The following figure shows the ROC curve and AUC for auditory models:
+https://imgur.com/undefined
