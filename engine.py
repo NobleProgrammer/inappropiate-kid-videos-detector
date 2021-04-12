@@ -17,14 +17,12 @@ def main(video_name, option):  # please check the last line of code to change vi
         print(f"## OPTION = {option}")
         file.write("Selected option: Detect Visual Ideologies Only.\n")
         model_names = ['xmas', 'star', 'pyramid', 'buddha', 'jack', 'mason', 'cross']
-        model_names = ['pyramid', 'buddha']
         makeOutFolders(cwd, model_names)
         detect(cwd, model_names, video_name, file)
     elif option == 2:
         print(f"## OPTION = {option}")
         file.write("Selected option: Detect Visual Violence Only.\n")
         model_names = ['knife', 'pistol', 'scissor', 'hammer']
-        # model_names = ['buddha', 'pistol']
         makeOutFolders(cwd, model_names)
         detect(cwd, model_names, video_name, file)
     elif option == 3:
